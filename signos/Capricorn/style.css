@@ -1,0 +1,144 @@
+.capricorn .st0 {
+  fill: #C68974;
+}
+
+.capricorn .st1 {
+  fill: #7A3E4C;
+}
+
+.capricorn .st2 {
+  fill: #7A3E4C;
+  stroke: #7A3E4C;
+  stroke-miterlimit: 10;
+}
+
+.capricorn .st3 {
+  fill: #FFFFFF;
+}
+
+.capricorn svg {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.capricorn #olho {
+  opacity: 1;
+  animation: 1.5s animation-olho infinite alternate linear forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes animation-olho {
+  0% {
+    opacity: 1;
+    transform: translate(0) translatey(0px) scale(.8);
+  }
+  100% {
+    opacity: .6;
+    transform: translate(-2px) translatey(-7px) scale(.9);
+  }
+}
+
+.capricorn #nariz {
+  opacity: 1;
+  animation: 1.5s animation-nariz infinite alternate linear forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes animation-nariz {
+  0% {
+    transform: rotate(0) translatex(0) translatey(0);
+  }
+  100% {
+    transform: rotate(0deg) translatex(4px) translatey(-12px);
+  }
+}
+
+.capricorn #cabeca {
+  transform-origin: 50% 50%;
+  animation: 1.5s animation-cabeca infinite alternate linear forwards;
+  transition: all ease-in-out;
+}
+
+@keyframes animation-cabeca {
+  0% {
+    transform: rotate(0deg) translatex(0) translatey(0);
+  }
+  100% {
+    transform: rotate(-10deg) translatex(0) translatey(-6px);
+  }
+}
+
+.capricorn #cabeca-2 {
+  transform-origin: 50% 50%;
+  animation: 1.5s animation-cabeca-2 infinite alternate;
+}
+
+@keyframes animation-cabeca-2 {
+  0% {
+    transform: translatex(0) translatey(0) rotate(0);
+  }
+  100% {
+    transform: translatex(-2px) translatey(1px) rotate(-5deg);
+  }
+}
+
+.capricorn #chifre {
+  transform-origin: 50% 50%;
+  animation: 1.5s animation-chifre infinite alternate linear forwards;
+}
+
+@keyframes animation-chifre {
+  0% {
+    transform: rotate(0deg) translatey(0px);
+  }
+  100% {
+    transform: rotate(-5deg) translatex(-3px) translatey(-8px);
+  }
+}
+
+.capricorn #barba {
+  transform-origin: 50% 50%;
+  animation: 1.5s animation-barba infinite alternate linear forwards;
+}
+
+@keyframes animation-barba {
+  0% {
+    transform: rotate(0deg) translatex(0px) translatey(0px);
+  }
+  100% {
+    transform: rotate(-7deg) translatex(8px) translatey(-6px);
+  }
+}
+
+@keyframes animation-circle {
+  0% {
+    transform: scale(1) translatey(0);
+  }
+  100% {
+    transform: scale(1.15) translatey(-1px);
+  }
+}
+
+.capricorn #pescoco {
+  transform-origin: 50% 50%;
+  animation: 1.5s animation-pescoco infinite alternate linear forwards;
+}
+
+@keyframes animation-pescoco {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.capricorn #cabeca-circle {
+  transform-origin: 50% 50%;
+  animation: 1.5s animation-circle infinite alternate linear;
+}

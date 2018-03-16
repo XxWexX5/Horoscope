@@ -1,0 +1,43 @@
+.taurus .st0 {
+  fill: #8A4355;
+}
+
+.taurus .st1 {
+  fill: #8A4355;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.taurus .st2 {
+  fill: #CE9178;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.taurus .st3 {
+  fill: #FFFFFF;
+}
+
+.taurus svg {
+  width: 800px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.taurus #face {
+  transform-origin: 50% 50%;
+  animation: 2s animation-face linear infinite alternate;
+}
+
+@keyframes animation-face {
+  0% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(12deg);
+  }
+}

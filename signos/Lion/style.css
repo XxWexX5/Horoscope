@@ -1,0 +1,143 @@
+.lion .st0 {
+  fill: #FFA938;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.lion .st1 {
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.lion .st2 {
+  fill: #C02B4B;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.lion svg {
+  width: 800px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.lion #olho {
+  transform-origin: 50% 50%;
+  animation: animation-olho 2.5s infinite alternate;
+}
+
+@keyframes animation-olho {
+  0% {
+    transform: rotatex(0) translatex(0);
+  }
+  100% {
+    transform: rotatex(-85deg) translatex(2px);
+  }
+}
+
+.lion #cabelo1 {
+  transform-origin: 50% 50%;
+  animation: animation-cabelo1 2s linear infinite alternate;
+}
+
+@keyframes animation-cabelo1 {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-10px);
+  }
+}
+
+.lion #cabelo2 {
+  transform-origin: 50% 50%;
+  animation: animation-cabelo2 2s linear infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes animation-cabelo2 {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-10px);
+  }
+}
+
+.lion #cabelo3 {
+  transform-origin: 50% 50%;
+  animation: animation-cabelo3 2s linear infinite alternate;
+  animation-delay: 2s;
+}
+
+@keyframes animation-cabelo3 {
+  0% {
+    transform: translatex(0);
+  }
+  100% {
+    transform: translatex(-10px);
+  }
+}
+
+.lion #cabelo4 {
+  transform-origin: 50% 50%;
+  animation: animation-cabelo4 2s linear infinite alternate;
+  animation-delay: 3s;
+}
+
+@keyframes animation-cabelo4 {
+  0% {
+    transform: translatex(0) translatey(0);
+  }
+  100% {
+    transform: translatex(-10px) translatey(5px);
+  }
+}
+
+.lion #cabelo5 {
+  transform-origin: 50% 50%;
+  animation: animation-cabelo5 2s linear infinite alternate;
+  animation-delay: 4s;
+}
+
+@keyframes animation-cabelo5 {
+  0% {
+    transform: translatex(0) translatey(0);
+  }
+  100% {
+    transform: translatex(3px) translatey(10px);
+  }
+}
+
+.lion #nariz {
+  transform-origin: 50% 50%;
+  animation: animation-nariz 2s infinite linear alternate;
+}
+
+@keyframes animation-nariz {
+  0% {
+    transform: translatey(-3px);
+  }
+  100% {
+    transform: translatey(1px);
+  }
+}
+
+.lion #rosto {
+  transform-origin: 50% 50%;
+  animation: animation-rosto 2s linear infinite alternate;
+}
+
+@keyframes animation-rosto {
+  0% {
+    transform: translatey(0) translatex(0);
+  }
+  100% {
+    transform: translatey(3px) translatex(3px);
+  }
+}

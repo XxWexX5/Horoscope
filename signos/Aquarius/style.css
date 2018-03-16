@@ -1,0 +1,153 @@
+.aquarius .st0 {
+  display: none;
+}
+
+.aquarius .st1 {
+  fill: #658F8A;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.aquarius .st2 {
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.aquarius .st3 {
+  fill: #88BFB2;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.aquarius .st4 {
+  fill: #3B6D6E;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.aquarius .st5 {
+  fill: #006837;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.aquarius .st6 {
+  fill: #006837;
+}
+
+.aquarius .st7 {
+  fill: #039AD7;
+}
+
+.aquarius svg {
+  width: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.aquarius #vaso {
+  transform-origin: 50% 50%;
+  animation: animation-vaso 2s linear infinite alternate;
+}
+
+@keyframes animation-vaso {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+.aquarius #agua {
+  transform-origin: 50% 50%;
+  animation: 2s animation-agua infinite linear alternate;
+}
+
+@keyframes animation-agua {
+  0% {
+    transform: translatex(0px) scale(1) translatey(0);
+  }
+  100% {
+    transform: translatex(-2px) scale(1.1) translatey(2px);
+  }
+}
+
+.aquarius #gota1 {
+  transform-origin: 50% 50%;
+  animation: 2.5s animation-gota1 linear infinite alternate;
+}
+
+@keyframes animation-gota1 {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-10px);
+  }
+}
+
+.aquarius #gota2 {
+  transform-origin: 50% 50%;
+  animation: 2.5s animation-gota2 linear infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes animation-gota2 {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-10px);
+  }
+}
+
+.aquarius #gota3 {
+  transform-origin: 50% 50%;
+  animation: 2.5s animation-gota3 linear infinite alternate;
+  animation-delay: 2s;
+}
+
+@keyframes animation-gota3 {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-10px);
+  }
+}
+
+.aquarius #gota4 {
+  transform-origin: 50% 50%;
+  animation: 2.5s animation-gota4 linear infinite alternate;
+  animation-delay: 3s;
+}
+
+@keyframes animation-gota4 {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-10px);
+  }
+}
+
+.aquarius #gota5 {
+  transform-origin: 50% 50%;
+  animation: 2.5s animation-gota5 linear infinite alternate;
+  animation-delay: 4s;
+}
+
+@keyframes animation-gota5 {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}

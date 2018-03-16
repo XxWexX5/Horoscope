@@ -1,0 +1,57 @@
+.aries .st0 {
+  fill: #FB9141;
+}
+
+.aries .st1 {
+  fill: #FB9044;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.aries .st2 {
+  fill: #FFFFFF;
+}
+
+.aries .st3 {
+  fill: #C02A4A;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.aries svg {
+  width: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.aries #face {
+  animation: 2s animation-face linear infinite alternate;
+  transform-origin: 50% 50%;
+}
+
+@keyframes animation-face {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(13deg);
+  }
+}
+
+.aries #chifre {
+  transform-origin: 50% 50%;
+  animation: 2s animation-chifre infinite linear alternate;
+}
+
+@keyframes animation-chifre {
+  0% {
+    transform: translatex(0) rotate(0);
+  }
+  100% {
+    transform: translatex(3px) rotate(13deg);
+  }
+}

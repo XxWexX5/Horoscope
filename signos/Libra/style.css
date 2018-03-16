@@ -1,0 +1,72 @@
+.libra .st0 {
+  fill: #35656E;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.libra .st1 {
+  fill: url(#balancaEsquerda_2_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.libra .st2 {
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.libra .st3 {
+  fill: url(#balancaDireita_2_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.libra .st4 {
+  fill: #7CB2A0;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.libra .st5 {
+  fill: #35656E;
+}
+
+.libra svg {
+  width: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.libra #ladoEsquerdo {
+  transform-origin: 270.25px 161.33px;
+  animation: animation-ladoEsquerdo 1.5s linear infinite alternate;
+}
+
+@keyframes animation-ladoEsquerdo {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+.libra #ladoDireito {
+  transform-origin: 270.25px 161.33px;
+  animation: animation-ladoDireito 1.5s linear infinite alternate;
+  animation-delay: 1.5s;
+}
+
+@keyframes animation-ladoDireito {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}

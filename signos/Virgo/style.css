@@ -1,0 +1,93 @@
+.virgo .st0 {
+  fill: #C08773;
+}
+
+.virgo .st1 {
+  fill: #FFFFFF;
+}
+
+.virgo .st2 {
+  fill: #7D3A4F;
+}
+
+.virgo .st3 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.virgo .st4 {
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.virgo .st5 {
+  fill: #6BAA3C;
+}
+
+.virgo svg {
+  width: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.virgo #flor {
+  transform-origin: 50% 31.5%;
+  animation: animation-flor 5s linear infinite;
+}
+
+@keyframes animation-flor {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.virgo #boca {
+  transform-origin: 50% 50%;
+  animation: animation-boca 2s linear infinite alternate;
+}
+
+@keyframes animation-boca {
+  0% {
+    transform: rotatex(0);
+  }
+  100% {
+    transform: rotatex(-80deg);
+  }
+}
+
+.virgo #virgem {
+  transform-origin: 50% 50%;
+  animation: animation-virgem 2s linear infinite alternate;
+}
+
+@keyframes animation-virgem {
+  0% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(10px);
+  }
+}
+
+.virgo #olho {
+  transform-origin: 40% 40%;
+  animation: animation-olho 2s linear infinite alternate;
+}
+
+@keyframes animation-olho {
+  0% {
+    transform: rotatex(0) ;
+  }
+  100% {
+    transform: rotatex(-80deg) ;
+  }
+}

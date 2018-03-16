@@ -1,0 +1,75 @@
+.sagittarius .st0 {
+  fill: #CE274F;
+}
+
+.sagittarius .st1 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+
+.sagittarius .st2 {
+  fill: #FF9F28;
+}
+
+.sagittarius svg {
+  width: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.sagittarius #aro1 {
+  transform-origin: 50% 5%;
+  animation: animation-aro1 3s infinite alternate;
+}
+
+@keyframes animation-aro1 {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(1) rotate(20deg);
+  }
+  100% {
+    transform: scale(.9) rotate(-7deg);
+  }
+}
+
+.sagittarius #aro2 {
+  transform-origin: 50% 95%;
+  animation: animation-aro2 3s infinite alternate;
+}
+
+@keyframes animation-aro2 {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(1) rotate(-20deg);
+  }
+  100% {
+    transform: scale(.9) rotate(10deg);
+  }
+}
+
+.sagittarius #flecha {
+  animation: animation-flecha 3s infinite alternate;
+
+}
+
+@keyframes animation-flecha {
+  0% {
+    transform: translatex(0);
+  }
+  50% {
+    transform: translatex(-50px);
+  }
+  100% {
+    transform: translatex(600px);
+  }
+}

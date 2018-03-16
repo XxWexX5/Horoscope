@@ -1,0 +1,192 @@
+.cancer .st0 {
+  fill: url(#SVGID_1_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st1 {
+  fill: url(#SVGID_2_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st2 {
+  fill: #946AA8;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st3 {
+  fill: #94558C;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st4 {
+  fill: url(#SVGID_3_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st5 {
+  fill: url(#SVGID_4_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st6 {
+  fill: url(#SVGID_5_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st7 {
+  fill: url(#SVGID_6_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st8 {
+  fill: url(#SVGID_7_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st9 {
+  fill: url(#SVGID_8_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st10 {
+  fill: url(#SVGID_9_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer .st11 {
+  fill: #915281;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.cancer svg {
+  width: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.cancer #base {
+  transform-origin: 50% 50%;
+  animation: animation-base 2s linear infinite alternate;
+}
+
+@keyframes animation-base {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-8px);
+  }
+}
+
+.cancer #pata1 {
+  transform-origin: 50% 50%;
+  animation: animation-pata1 2s linear infinite alternate;
+}
+
+.cancer #pata3 {
+  transform-origin: 50% 50%;
+  animation: animation-pata1 2s linear infinite alternate;
+}
+
+.cancer #pata5 {
+  transform-origin: 50% 50%;
+  animation: animation-pata1 2s linear infinite alternate;
+}
+
+@keyframes animation-pata1 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+.cancer #pata2,
+.cancer #pata4,
+.cancer #pata6 {
+  transform-origin: 50% 50%;
+  animation: animation-pata2 2s linear infinite alternate;
+}
+
+.cancer #pata7 {
+  transform-origin: 50% 50%;
+  animation: animation-pata1 2s linear infinite alternate;
+}
+
+.cancer #pata8 {
+  transform-origin: 25% 60%;
+  animation: animation-pata4 2s linear infinite alternate;
+}
+
+@keyframes animation-pata2 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+
+@keyframes animation-pata3 {
+  0% {
+    transform: rotate(0) translatey(0);
+  }
+  100% {
+    transform: rotate(-10deg) translatey(10px);
+  }
+}
+
+@keyframes animation-pata4 {
+  0% {
+    transform: rotate(0) translatex(0) translatey(0);
+  }
+  100% {
+    transform: rotate(-10deg) translatex(10px) translatey(10px);
+  }
+}
+
+.cancer #garra1 {
+  transform-origin: 50% 50%;
+  animation: animation-pata5 2s linear infinite alternate;
+}
+
+.cancer #garra2 {
+  transform-origin: 50% 50%;
+  animation: animation-pata6 2s linear infinite alternate;
+  animation-delay: 2s;
+}
+
+@keyframes animation-pata5 {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(20px);
+  }
+}
+
+@keyframes animation-pata6 {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(25px);
+  }
+}

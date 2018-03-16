@@ -1,0 +1,126 @@
+.gemini .st0 {
+  fill: url(#formatoMask2_1_);
+}
+
+.gemini .st1 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.gemini .st2 {
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.gemini .st3 {
+  fill: #FFFFFF;
+}
+
+.gemini .st4 {
+  fill: url(#formatoMask1_1_);
+}
+
+.gemini svg {
+  width: 800px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.gemini #mask2 {
+  opacity: 0;
+  animation: animation-mascara1 2s linear infinite alternate,
+             animation-aparece 2s linear forwards;
+}
+
+@keyframes animation-mascara1 {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.gemini #mask1 {
+  opacity: 0;
+  animation: animation-mascara2 2s linear infinite alternate,
+             animation-aparece 2s linear forwards;
+}
+
+@keyframes animation-mascara2 {
+  0% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+
+@keyframes animation-aparece {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.gemini #olho1 {
+  transform-origin: 51.2% 47%;
+  animation: animation-olho 1s forwards;
+  animation-delay: 1s;
+}
+
+.gemini #olho2 {
+  transform-origin: 63.8% 50.7%;
+  animation: animation-olho 1s forwards;
+  animation-delay: 2s;
+}
+
+.gemini #olho3 {
+  transform-origin: 30.5% 42.5%;
+  animation: animation-olho 1s forwards;
+  animation-delay: 3s;
+}
+
+.gemini #olho4 {
+  transform-origin: 43.4% 39.9%;
+  animation: animation-olho 1s forwards;
+  animation-delay: 4s;
+}
+
+@keyframes animation-olho {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(180deg);
+  }
+}
+
+.gemini #sorrirMask1 {
+  transform-origin: 54.3% 61%;
+  animation: animation-boca 1s forwards;
+  animation-delay: 5s;
+}
+
+.gemini #sorrirMask2 {
+  transform-origin: 40.5% 53.8%;
+  animation: animation-boca 1s forwards;
+  animation-delay: 5s;
+}
+
+@keyframes animation-boca {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(180deg);
+  }
+}
